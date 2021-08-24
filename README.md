@@ -8,9 +8,9 @@ import findspark
 
 findspark.init("path-to-hadoop3.2")
 
-from pyspark import SparkConf
+pyspark.SparkConf
 
-from pyspark.context import SparkContext
+pyspark.context.SparkContext
 
-from pyspark.sql import SparkSession
+pyspark.sql.SparkSession
 
